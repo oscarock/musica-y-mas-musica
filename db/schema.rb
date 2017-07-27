@@ -16,10 +16,10 @@ ActiveRecord::Schema.define(version: 20170727012945) do
     t.string "name"
     t.text "image_url"
     t.string "released_at"
-    t.integer "artists_id_id"
+    t.integer "artist_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["artists_id_id"], name: "index_albums_on_artists_id_id"
+    t.index ["artist_id"], name: "index_albums_on_artist_id"
   end
 
   create_table "artists", force: :cascade do |t|
@@ -33,10 +33,10 @@ ActiveRecord::Schema.define(version: 20170727012945) do
     t.string "name"
     t.integer "number"
     t.text "preview_url"
-    t.integer "albums_id_id"
+    t.integer "album_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["albums_id_id"], name: "index_songs_on_albums_id_id"
+    t.index ["album_id"], name: "index_songs_on_album_id"
   end
 
 end
