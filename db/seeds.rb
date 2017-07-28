@@ -14,4 +14,12 @@ Artist.create(name: "Metallica",
 Artist.create(name: "Iron Maiden",
   image_url: "http://ironmaiden.com/media/discography/thumbnail/album-the-book-of-souls.jpg")
 
-  # a1.albums.create({name: 'appette for destruction', image_url: 'https://upload.wikimedia.org/wikipedia/en/8/8b/Appetitefordestruction.jpg',released_at: '1987', artists_id: 1)
+  # a1.albums.create({name: "appette for destruction", image_url: "https://upload.wikimedia.org/wikipedia/en/8/8b/Appetitefordestruction.jpg", released_at: "1987", artists_id: 1})
+  # a1.albums.create(name: 'your illusion 1', image_url: 'http://www.amiright.com/photoshops/images/album_1469560763.jpg',released_at: '1991', artists_id: 1)
+  # a1.albums.create({name: 'your illusion 2', image_url: 'https://upload.wikimedia.org/wikipedia/en/3/38/GunsnRosesUseYourIllusionII.jpg',released_at: '1991', artists_id: 1)
+
+  # Book.create(title: 'Julius Shulman: The Last Decade').authors.create([
+  #   {first_name: 'Thomas', last_name: 'Schirmbock'},
+  #   {first_name: 'Julius', last_name: 'Shulman'},
+  #   {first_name: 'Jürgen', last_name: 'Nogai'}
+  #   ])
